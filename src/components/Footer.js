@@ -3,13 +3,13 @@ import PropTypes from 'prop-types'
 import FilterLink from '../containers/FilterLink'
 import { SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE } from '../constants/TodoFilters'
 
-const FILTER_TITLES: Record<string, string> = {
+const FILTER_TITLES = {
   [SHOW_ALL]: 'All',
   [SHOW_ACTIVE]: 'Active',
   [SHOW_COMPLETED]: 'Completed',
 }
 
-const Footer = (props: any) => {
+const Footer = props => {
   const { activeCount, completedCount, onClearCompleted } = props
   const itemWord = activeCount === 1 ? 'item' : 'items'
   return (
