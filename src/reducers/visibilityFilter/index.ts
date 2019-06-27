@@ -1,4 +1,4 @@
-import { makeActionCreators, makeReducer } from '../../redux-solve'
+import { makeActionCreators, makeReducer } from 'redux-solve'
 import { VisibilityFilterState } from './resolvers'
 import { SHOW_ALL } from '../../constants/TodoFilters'
 import * as resolvers from './resolvers'

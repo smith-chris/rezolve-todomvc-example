@@ -23,6 +23,7 @@
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.2",
     "redux": "^4.0.1",
+    "redux-solve": "^0.1.0",
     "reselect": "^4.0.0",
     "todomvc-app-css": "^2.2.0"
   },

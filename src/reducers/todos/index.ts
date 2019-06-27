@@ -1,4 +1,4 @@
-import { makeActionCreators, makeReducer } from '../../redux-solve'
+import { makeActionCreators, makeReducer } from 'redux-solve'
 import { TodosState } from './resolvers'
 import * as todosResolvers from './resolvers'
 
